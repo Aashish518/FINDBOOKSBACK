@@ -10,7 +10,7 @@ dotenv.config();
 
 
 app.use(cors({
-    origin: "https://findbooksfront.onrender.com", 
+    origin: true, 
     credentials: true, 
     methods: ["GET", "POST", "PUT", "DELETE"], 
     allowedHeaders: ["Content-Type", "Authorization"], 
