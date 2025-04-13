@@ -3,11 +3,8 @@ const jwt = require("jsonwebtoken");
 const JWT_SECRET = process.env.JWT_KEY;
 
 const authenticateToken = (req, res, next) => {
-    let token;
-    if (req.cookies) {
-        token = req.cookies.token;
-        console.log("token",token)
-    }
+    // let token;
+    const token = req.cookies?.token;
 
     console.log("tototot",token);
     if (!token) {
