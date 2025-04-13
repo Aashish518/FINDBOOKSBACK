@@ -6,6 +6,7 @@ const authenticateToken = (req, res, next) => {
     let token;
     if (req.cookies) {
         token = req.cookies.token;
+        console.log("token",token)
     }
 
     console.log("tototot",token);
