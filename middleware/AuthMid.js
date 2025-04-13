@@ -4,6 +4,8 @@ const JWT_SECRET = process.env.JWT_KEY;
 
 const authenticateToken = (req, res, next) => {
     const token = req.cookies?.token;
+    console.log("req", req)
+    console.log("req", req.cookies)
     console.log("req",req.cookies.token)
     console.log("tototot",token);
     if (!token) {
