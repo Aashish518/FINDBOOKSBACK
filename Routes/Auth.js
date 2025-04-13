@@ -250,7 +250,7 @@ router.get("/User", Authmid, async (req, res) => {
   }
 });
 
-router.get("/AllUser", Authmid, async (req, res) => {
+router.get("/AllUser", async (req, res) => {
     try {
       const users = await User.find({});
       if (!users) {
