@@ -10,7 +10,7 @@ dotenv.config();
 
 app.use(cookieparser());
 app.use(cors({
-    origin: "https://findbooksfront.onrender.com", //"http://localhost:5173", 
+    origin: true,//"https://findbooksfront.onrender.com", //"http://localhost:5173", 
     credentials: true, 
     methods: ["GET", "POST", "PUT", "DELETE"], 
     allowedHeaders: ["Content-Type", "Authorization"], 
