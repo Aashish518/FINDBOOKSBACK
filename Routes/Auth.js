@@ -184,6 +184,12 @@ router.post(
       };
       const authtoken = jwt.sign(data, JsonSecretKey);
 
+      res.cookie("token", authtoken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "none",
+        maxAge: 24 * 60 * 60 * 1000
+      });
 
       res.status(201).json({ user: savedUser, authtoken });
     } catch (err) {
@@ -227,7 +233,12 @@ router.post(
       };
       const authtoken = jwt.sign(data, JsonSecretKey);
       success = true;
-
+      res.cookie("token", authtoken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "none",
+        maxAge: 24 * 60 * 60 * 1000
+      });
       res.json({ success, authtoken, user });
     } catch (error) {
       console.error(error.message);
