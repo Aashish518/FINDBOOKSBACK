@@ -10,7 +10,7 @@ dotenv.config();
 
 
 app.use(cors({
-    origin: "http://localhost:5173", // Allow only your frontend
+    origin: "https://findbooksfront-1.onrender.com", // Allow only your frontend
     credentials: true, // Allow cookies and authentication headers
     methods: ["GET", "POST", "PUT", "DELETE"], // Allow necessary methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allow required headers
