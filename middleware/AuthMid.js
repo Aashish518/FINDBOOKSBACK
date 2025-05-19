@@ -4,8 +4,14 @@ const jwt = require("jsonwebtoken");
 const JWT_SECRET = process.env.JWT_KEY;
 
 const authenticateToken = (req, res, next) => {
-    const token = req.cookies?.token; // Ensure this matches the cookie name
+    const authHeader = req.headers['authorization'];
 
+    if (!authHeader) {
+        return res.status(401).json({ message: "Unauthorized: No token provided" });
+    }
+
+    const token = authHeader && authHeader.split(' ')[1]; // Ensure this matches the cookie name
+    console.log("aashish",token)
     if (!token) {
         console.error("No token provided");
         return res.status(401).json({ message: "Unauthorized: No token provided" });
