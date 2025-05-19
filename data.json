@@ -1,0 +1,52 @@
+{
+ "books":[
+    {
+      "BookName": "Science and Fun Physics & Chemistry Notes Booklet Class 11th - Part 1",
+      "BookImageURL": "https://d34a0mln2492j4.cloudfront.net/unsigned/resize:fit:317:447:0/gravity:sm/plain/https%3A%2F%2Fbookscape-s3-bucket.s3.amazonaws.com%2Fproduct_images%2F2407030003465.jpg",
+      "Author": "Science and Fun",
+      "Edition": "1st",
+      "Publication_Date": "2024-07-03",
+      "Publisher": "CREATOR ECONOMY TCH PVT LTD",
+      "Description": "This combo product is bundled in India but the publishing origin of this title may vary.Publication date of this bundle is the creation date of this bundle; the actual publication date of child items may vary.NANA",
+      "Price": 400,
+      "ISBN": "2407030003465",
+      "Subcategory_id": "67795eb888651bc70ff2b3e1"
+    },
+    {
+      "BookName": "UP Police Constable 2024 (Previous Year Solved Paper)",
+      "BookImageURL": "https://d34a0mln2492j4.cloudfront.net/unsigned/resize:fit:239:345:0/gravity:sm/plain/https%3A%2F%2Fbookscape-s3-bucket.s3.amazonaws.com%2Fproduct_images%2F2017118034029.jpg",
+      "Author": "Ajay Sir",
+      "Edition": "1st",
+      "Publication_Date": "2024-01-15",
+      "Publisher": "SSC MAKER PVT LTD",
+      "Description": "Ajay Singh assists students in preparing for Maths & Reasoning in SSC Railway State and various Government Exams through his SSC MAKER YouTube Channel. His teaching style is uniquely effective making complex concepts easily understandable even for the weakest students. Join the thousands he has guided to exam success.",
+      "Price": 250,
+      "ISBN": "2017118034029",
+      "Subcategory_id": "67795edc88651bc70ff2b3e4"
+    },
+    {
+      "BookName": "Godan (गोदान)",
+      "BookImageURL": "https://d34a0mln2492j4.cloudfront.net/unsigned/resize:fit:239:345:0/gravity:sm/plain/https%3A%2F%2Fbookscape-s3-bucket.s3.amazonaws.com%2Fproduct_images%2F9788171822492.jpg",
+      "Author": "Premchand",
+      "Edition": "1st",
+      "Publication_Date": "2023-07-19",
+      "Publisher": "Diamond Pocket Books Pvt Ltd",
+      "Description": "Munshi Premchand's Godan is one of the greatest novels of Indian literature. It was originally written in Hindi and in 1957 it was translated to English.The story reflects the typical Indian community and the various problems of caste segregation",
+      "Price": 250,
+      "ISBN": "9788171822492",
+      "Subcategory_id": "67795f1d88651bc70ff2b3e7"
+    },
+    {
+      "BookName": "India's Immortal Comic Books",
+      "BookImageURL": "https://d34a0mln2492j4.cloudfront.net/unsigned/resize:fit:239:345:0/gravity:sm/plain/https%3A%2F%2Fbookscape-s3-bucket.s3.amazonaws.com%2Fproduct_images%2F9780253220523.jpg",
+      "Author": "Karline McLain",
+      "Edition": "1st",
+      "Publication_Date": "2009-03-01",
+      "Publisher": "indiana University Press",
+      "Description": "Combining entertainment and education, India's most beloved comic book series, Amar Chitra Katha, or 'Immortal Picture Stories,' is also an important cultural institution that has helped define, for several generations of readers, what it means to be Hindu and Indian",
+      "Price": 3494,
+      "ISBN": "9780253220523",
+      "Subcategory_id": "67795f5688651bc70ff2b3f0"
+    }
+  ]
+}
