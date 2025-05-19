@@ -1,5 +1,5 @@
 const express = require('express');
-const Rating = require('../schema/Rating');
+const Rating = require('../Schema/Rating');
 const router = express.Router();
 const { body, validationResult } = require('express-validator');
 const authenticateToken = require("../middleware/AuthMid");
