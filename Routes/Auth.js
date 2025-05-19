@@ -212,7 +212,12 @@ router.post(
         },
       };
       const authtoken = jwt.sign(data, JsonSecretKey);
-
+      res.cookie("token", authtoken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: 24 * 60 * 60 * 1000
+      });
 
       // Respond with success
       res.status(201).json({ user: savedUser, authtoken });
@@ -260,6 +265,12 @@ router.post(
         User: { id: user.id },
       };
       const authtoken = jwt.sign(data, JsonSecretKey);
+      res.cookie("token", authtoken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: 24 * 60 * 60 * 1000
+      });
       success = true;
 
       // Respond with the token
