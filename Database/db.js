@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectToMongo = () => {
-mongoose.connect("mongodb://localhost:27017/FINDBOOKS",{
+    mongoose.connect("mongodb+srv://jadavaashish9:An%40211518@cluster0.gtxxzpc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(()=>{
